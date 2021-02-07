@@ -2,6 +2,7 @@
 
 This exercise is to create a random poem generator using the following grammatical rules:
 
+``` 
 POEM: <LINE> <LINE> <LINE> <LINE> <LINE>
 
 LINE: <NOUN>|<PREPOSITION>|<PRONOUN> $LINEBREAK
@@ -15,6 +16,7 @@ PRONOUN: my|your|his|her <NOUN>|<ADJECTIVE>
 VERB: runs|walks|stands|climbs|crawls|flows|flies|transcends|ascends|descends|sinks <PREPOSITION>|<PRONOUN>|$END
 
 PREPOSITION: above|across|against|along|among|around|before|behind|beneath|beside|between|beyond|during|inside|onto|outside|under|underneath|upon|with|without|through <NOUN>|<PRONOUN>|<ADJECTIVE>
+```
 
 · To the left of the colon is the name of the rule
 
