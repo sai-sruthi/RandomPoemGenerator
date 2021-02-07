@@ -1,6 +1,6 @@
 # RandomPoemApp
 
-This exercise is to create a random poem generator using the following grammatical rules:
+This code is to create a random poem generator using the following grammatical rules:
 
 ``` 
 POEM: <LINE> <LINE> <LINE> <LINE> <LINE>
@@ -35,7 +35,9 @@ For example, the rule PRONOUN is defined as my|your|his|her <NOUN>|<ADJECTIVE> w
 either a NOUN or an ADJECTIVE, also selected at random.
 
 
-This is Java app which parses the grammatical rules from a text file, then uses the parsed data to generate a random poem. Here is an example of what the output might look like:
+
+The Java app which parses the grammatical rules from a text file, then uses the parsed data to generate a random poem. 
+Here is an example of what the output might look like:
 
 	my sun among her white meadow
 	moon upon my light
