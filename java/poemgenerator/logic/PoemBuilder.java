@@ -24,7 +24,7 @@ public class PoemBuilder implements PoemBuilderInterface {
 	public Poem generatePoem() throws IOException {
 		List<String> fileContent = null;
 		// Change the path accordingly
-		fileContent = Files.readAllLines(Paths.get("/Users/stallur2/Documents/Sift/resources/"+POEM_RULES_FILE));
+		fileContent = Files.readAllLines(Paths.get("/resources/"+POEM_RULES_FILE));
 		rb = new RuleBuilder();
 		this.thePoem = new Poem();
 
